@@ -1,0 +1,36 @@
+#fresh{
+  .fresh{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--block{
+      h1{
+        font-weight: 570;
+        font-size: 54px;
+        line-height: 68px;
+        color: #151414;
+      }
+      p{
+        margin: 7% 0;
+        width: 514px;
+        font-weight: 350;
+        font-size: 22px;
+        line-height: 34px;
+        color: #181D19;
+      }
+      button{
+        width: 210px;
+        height: 64px;
+        background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+        border-radius: 50px;
+        border: none;
+        color: white;
+        &:focus{
+          background: #494949;
+          transition: .3s;
+        }
+      }
+    }
+  }
+
+}

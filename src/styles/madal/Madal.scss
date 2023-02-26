@@ -1,0 +1,16 @@
+#madal{
+  .madal{
+    &--block{
+      h1{
+        color: darkred;
+        font-size: 50px;
+      }
+      button{
+        width: 70px;
+        height: 50px;
+        background: red;
+        color: white;
+      }
+    }
+  }
+}

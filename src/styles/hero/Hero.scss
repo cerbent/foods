@@ -1,0 +1,67 @@
+#hero{
+  .hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--block{
+      h1{
+        font-weight: 500;
+        font-size: 76px;
+        line-height: 95px;
+        color: #181D19;
+        span{
+          color: #5FB848;
+        }
+      }
+      p{
+        margin: 20px 0;
+        width: 504px;
+        font-weight: 350;
+        font-size: 24px;
+        line-height: 34px;
+        color: #181D19;
+      }
+      button{
+        margin: 15px 0;
+        border: none;
+        width: 200px;
+        height: 64px;
+        background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+        border-radius: 50px;
+        color: white;
+        &:focus{
+          background: #494949;
+          color: white;
+          transition: .6s;
+        }
+      }
+    }
+    &--img{
+      position: relative;
+      .j1{
+        position: absolute;
+        left: 5%;
+        top: 10%;
+        right: 0;
+        bottom: 0;
+        width: 200px;
+      }
+      .j2{
+        position: absolute;
+        left: 25%;
+        right: 0;
+        top: 89%;
+        bottom: 0;
+        width: 100px;
+      }
+      .j3{
+        position: absolute;
+        left: 85%;
+        top: 13%;
+        bottom: 0;
+        right: 0;
+        width: 150px;
+      }
+    }
+  }
+}

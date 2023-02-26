@@ -1,0 +1,49 @@
+#happy{
+  h1{
+    font-weight: 570;
+    font-size: 54px;
+    line-height: 68px;
+    text-align: center;
+    color: #151414;
+  }
+  .happy{
+    margin: 10% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &--block{
+      p{
+        width: 456px;
+        font-weight: 350;
+        font-size: 18px;
+        line-height: 30px;
+        color: #181D19;
+      }
+      width: 514px;
+      height: 347px;
+      background: #FFFFFF;
+      border: 2px solid #FFFFFF;
+      box-shadow: 3px 15px 35px rgba(120, 125, 173, 0.06);
+      border-radius: 8px;
+      &__text{
+        margin: 19px 0;
+        display: flex;
+        align-items: center;
+        &--title{
+          margin: 0 33px;
+          p{
+            width: 456px;
+            font-weight: 350;
+            font-size: 18px;
+            color: #181D19;
+          }
+          h2{
+            font-weight: 470;
+            font-size: 20px;
+            color: #333333;
+          }
+        }
+      }
+    }
+  }
+}

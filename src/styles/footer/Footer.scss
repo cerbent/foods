@@ -1,0 +1,39 @@
+#footer{
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &--block{
+      h2{
+        font-weight: 570;
+        font-size: 22px;
+        line-height: 28px;
+        color: #2C3847;
+      }
+      p{
+        margin: 10px 0;
+        font-weight: 360;
+        font-size: 16px;
+        line-height: 20px;
+        color: #657582;
+      }
+    }
+    &--title{
+      h1{
+        font-weight: 670;
+        font-size: 26px;
+        line-height: 32px;
+        color: #2C3847;
+      }
+      p{
+        margin: 18px 0;
+        width: 262px;
+        font-weight: 360;
+        font-size: 16px;
+        line-height: 20px;
+        color: #657582;
+      }
+
+    }
+  }
+}

@@ -1,0 +1,45 @@
+#header{
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h2{
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 39px;
+      color: #333333;
+    }
+    &--link{
+      a{
+        margin: 0 30px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        color: #2C3847;
+        &:hover{
+          color:#5FB848;;
+        }
+      }
+    }
+    &--order{
+      button{
+        margin: 0 10px;
+        width: 160px;
+        height: 54px;
+        background: #494949;
+        border-radius: 27px;
+        color: white;
+        border: none;
+        &:focus{
+          background: #5FB848;
+          transition: .4s;
+        }
+      }
+      .icon1{
+        margin: 0 8px;
+        font-size: 18px;
+      }
+    }
+  }
+}
